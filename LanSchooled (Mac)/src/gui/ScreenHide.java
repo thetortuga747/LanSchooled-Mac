@@ -62,6 +62,7 @@ public class ScreenHide extends JFrame{
 		    		}
 				}
 			}else {
+				setVisible(false);
 				if (gd.isFullScreenSupported()) {
 		    		try {
 		    			gd.setFullScreenWindow(null);
